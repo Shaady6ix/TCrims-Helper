@@ -85,7 +85,7 @@ Projekt ma charakter edukacyjny. Pomaga ćwiczyć:
 - bezpieczne testowanie automatyzacji w widocznej przeglądarce.
 
 > [!WARNING]
-> Przed użyciem sprawdź aktualne zasady The Crims. Narzędzia nie są przeznaczone do obchodzenia zabezpieczeń, omijania ograniczeń gry ani uzyskiwania nieuczciwej przewagi. Użytkownik korzysta z nich wyłącznie na własną odpowiedzialność i zgodnie z regulaminem serwisu.
+> Przed użyciem sprawdź aktualne zasady TCrims. Narzędzia nie są przeznaczone do obchodzenia zabezpieczeń, omijania ograniczeń gry ani uzyskiwania nieuczciwej przewagi. Użytkownik korzysta z nich wyłącznie na własną odpowiedzialność i zgodnie z regulaminem serwisu.
 
 ## Rozwiązywanie problemów
 
