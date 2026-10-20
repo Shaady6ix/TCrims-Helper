@@ -1,6 +1,6 @@
-# The Crims Playwright Tools
+# TCrims Playwright Tools
 
-> Edukacyjny zestaw skryptów Python + Playwright do eksperymentowania z automatyzacją interfejsu WWW na ekranach gry The Crims.
+> Edukacyjny zestaw skryptów Python + Playwright do eksperymentowania z automatyzacją interfejsu WWW na ekranach gry TCrims.
 
 Projekt zawiera niezależne moduły dla wybranych widoków gry. Każdy skrypt uruchamia przeglądarkę Chromium i wymaga ręcznego zalogowania przez użytkownika.
 
@@ -21,9 +21,9 @@ Projekt zawiera niezależne moduły dla wybranych widoków gry. Każdy skrypt ur
 
 | Plik | Przeznaczenie |
 | --- | --- |
-| `single_robbery_bot.py` | Odczyt staminy i uruchamianie pojedynczego rabunku. |
-| `gang_robbery_bot.py` | Obsługa sekwencji `Accept` → oczekiwanie → `Do the score!`. |
-| `thecrims_hunting_bot.py` | Eksperymentalna obsługa widoku Hunting Grounds. |
+| `singlerob.py` | Odczyt staminy i uruchamianie pojedynczego rabunku. |
+| `gangrob.py` | Obsługa sekwencji `Accept` → oczekiwanie → `Do the score!`. |
+| `hutnin.py` | Eksperymentalna obsługa widoku Hunting Grounds. |
 
 ## Wymagania
 
@@ -56,14 +56,14 @@ Projekt zawiera niezależne moduły dla wybranych widoków gry. Każdy skrypt ur
 Uruchom wybrany moduł, na przykład Hunting Grounds:
 
 ```powershell
-python thecrims_hunting_bot.py
+python hutin.py
 ```
 
-Po otwarciu Chromium zaloguj się ręcznie na swoje konto The Crims. Następnie wróć do terminala i naciśnij `Enter`, aby kontynuować działanie skryptu.
+Po otwarciu Chromium zaloguj się ręcznie na swoje konto TCrims. Następnie wróć do terminala i naciśnij `Enter`, aby kontynuować działanie skryptu.
 
 ## Hunting Grounds
 
-`thecrims_hunting_bot.py` jest samodzielnym, eksperymentalnym modułem dla widoku Hunting Grounds. Obejmuje:
+`huntin.py` jest samodzielnym, eksperymentalnym modułem dla widoku Hunting Grounds. Obejmuje:
 
 - ręczne logowanie;
 - widoczny, płynnie poruszający się kursor;
